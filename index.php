@@ -21,7 +21,7 @@
     <audio id="sound-winner" src="assets/songs/end/1.wav"></audio>
     <audio id="sound-change" src="assets/songs/startgame.wav"></audio>
     <audio id="sound-save" src="assets/songs/save.wav"></audio>
-    <audio id="sound-addplayer" src="assets/songs/ui_change_selection2.wav"></audio>
+    <audio id="sound-addplayer" src="assets/songs/add_player.wav"></audio>
     <audio id="sound-supprplayer" src="assets/songs/suppr_player.wav"></audio>
 
     <div id="music" class="svg-container" title="play/pause the music">
