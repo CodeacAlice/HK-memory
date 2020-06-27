@@ -6,6 +6,7 @@ body {
 
 	background-image: url('../img/background-1.jpg');
 	background-size: cover;
+	background-position: center top;
 
 	margin: 0;
 	padding-top: 20px;
