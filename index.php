@@ -24,16 +24,6 @@
     <audio id="sound-addplayer" src="assets/songs/add_player.wav"></audio>
     <audio id="sound-supprplayer" src="assets/songs/suppr_player.wav"></audio>
 
-    <div id="music" class="svg-container" title="play/pause the music">
-        <?php echo file_get_contents("assets/img/play-solid.svg"); ?>
-        <?php echo file_get_contents("assets/img/pause-solid.svg"); ?>
-    </div>
-
-    <div id="mute" class="svg-container" title="mute/unmute the music and sound effects">
-        <?php echo file_get_contents("assets/img/volume-mute-solid.svg"); ?>
-        <?php echo file_get_contents("assets/img/volume-up-solid.svg"); ?>
-    </div>
-
 
     <img id="title" src="assets/img/logo_memory_hk.png" alt="Hollow Knight Memory" />
 
@@ -118,8 +108,23 @@
 
 
 
-    <div class="footer" style="display: none;">
-        Made by Alice, Delphine & Maysam @<a href="http://code-academie.fr/">CodeAcadémie</a>
+    <footer>
+        <div style="margin:auto;">
+            <a href="https://hollowknight.com/" target="blank">Hollow Knight</a> is a video game made and owned by <a href="http://teamcherry.com.au/" target="blank">Team Cherry</a><br>
+            This memory is made by Alice Carry &copy; all rights reserved
+        </div>
+    </footer>
+
+    
+
+    <div id="music" class="svg-container" title="play/pause the music">
+        <?php echo file_get_contents("assets/img/play-solid.svg"); ?>
+        <?php echo file_get_contents("assets/img/pause-solid.svg"); ?>
+    </div>
+
+    <div id="mute" class="svg-container" title="mute/unmute the music and sound effects">
+        <?php echo file_get_contents("assets/img/volume-mute-solid.svg"); ?>
+        <?php echo file_get_contents("assets/img/volume-up-solid.svg"); ?>
     </div>
 
     <script type="text/javascript" src="assets/js/jquery.js"></script>

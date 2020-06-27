@@ -3,9 +3,17 @@
 body {
 	font-family: 'Perpetua', serif ;
 	font-size: 18px;
+
 	background-image: url('../img/background-1.jpg');
 	background-size: cover;
+
 	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 80px;
+	box-sizing: border-box;
+	
+	position: relative;
+	min-height: 100vh;
 }
 
 
@@ -38,7 +46,6 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
-	margin-top: 20px;
 }
 
 
@@ -63,7 +70,10 @@ h3 {
 	src: url('TrajanPro-Bold.otf');
 }
 
+
+
 /******* Icônes svg de son *******/
+
 .svg-container {
 	width: 50px;
 	height: 50px;
@@ -176,6 +186,7 @@ path { fill: #193967; }
 
 
 /******* Joueurs *******/
+
 #allplayers_1 {
 	display: flex;
 	flex-direction: column;
@@ -228,7 +239,6 @@ path { fill: #193967; }
 
 /******* Cartes *******/
 
-
 .deck {
 	padding: 10px;
 	margin-top: 10px;
@@ -276,6 +286,20 @@ path { fill: #193967; }
 	display: flex;
 	justify-content: space-evenly;
 	margin: 10px 0 40px;
+}
+
+footer {
+	text-align: center;
+	display: flex;
+	align-items: center;
+
+	background-color: rgba(102, 162, 212, 0.7);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.4);
+
+	height: 80px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 
