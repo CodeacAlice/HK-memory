@@ -110,7 +110,7 @@
 
     <footer>
         <div style="margin:auto;">
-            <a href="https://hollowknight.com/" target="blank">Hollow Knight</a> is a video game made and owned by <a href="http://teamcherry.com.au/" target="blank">Team Cherry</a><br>
+            <a href="https://hollowknight.com/" target="blank">Hollow Knight</a> is made and owned by <a href="http://teamcherry.com.au/" target="blank">Team Cherry</a> – icons from <a href="https://fontawesome.com/license" target="blank">Font Awesome</a><br>
             This memory is made by Alice Carry &copy; all rights reserved
         </div>
     </footer>
