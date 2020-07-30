@@ -3,7 +3,7 @@
 // Initialisation des constantes et variables générales
 // --------------------------------------------------------------------------------------------------------------------------------------
 
-const nb_avatars = 9, nb_max_joueurs = 10, nb_min_pairs = 3, nb_max_pairs = 21;
+const nb_avatars = 9, nb_max_joueurs = 10, nb_min_pairs = 3, nb_max_pairs = 24;
 
 let nb_paires, nb_joueurs;
 let turn = 0, players_scores = []
